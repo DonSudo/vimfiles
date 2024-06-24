@@ -44,7 +44,7 @@ endif
 
 " auto install vim-plug
 if g:os == "Windows"
-    let vimfiles = $HOME . '/vimfiles'
+    let vimfiles = $HOME.'/vimfiles'
 else
     let vimfiles = '~/vimfiles'
 endif
